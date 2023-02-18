@@ -5,6 +5,6 @@ Primeiro desafio do curso Pratique HTML e CSS em projetos Web da plataforma <str
 </p>
 
 
-<p aling="center">
-[Clique aqui para ir para a pagina no GithubPages](https://alvesjaov.github.io/7DaysOfCode-HTMLeCSS/index.html)
-<P>
+
+**[Clique aqui para visualizar a página no Github Pages](https://alvesjaov.github.io/7DaysOfCode-HTMLeCSS/index.html)**
+
