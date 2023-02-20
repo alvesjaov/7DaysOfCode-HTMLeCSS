@@ -6,80 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OptimusTech by: @alvesjaov</title>
-    <link rel="short cut icon" href="IMG/mini-logo.svg">
+    <link rel="preconnect" href="./ASSETS/IMG/mini-logo.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
     <nav>
-        <img src="IMG/logo.svg" alt="logo" />
-        <div class="lista-navegacao">
-            <a href="#">Produtos</a>
-            <a href="#">Recursos</a>
-            <a href="#sessao1-sobre-nos">Sobre nós</a>
-            <a href="index.html">Home</a>
-            <a href="#sessao3-vagas-abertas">Trabalhe conosco</a>
+        <img src="./ASSETS/IMG/logo.svg" alt="logo" />
+
+        <div class="menu-lateral">
+            <img src="./ASSETS/IMG/menu-icon.svg" alt="Ícone de Menu">
         </div>
-        <div class="buttons">
-            <button id="singnIn">Entra</button>
-            <button id="signUp">Cadastrar</button>
-        </div>
+        <div class="menu">
+            <div class="links">
+                <a href="#">Produtos</a>
+                <a href="#">Recursos</a>
+                <a href="#about-us">Sobre nós</a>
+                <a href="index.html">Home</a>
+                <a href="#vagas-abertas">Trabalhe conosco</a>
+            </div>
+            <div class="buttons">
+                <button class="singnIn" type="submit" value="Entrar">Entra</button>
+                <button class="signUp" type="submit" value="Cadastrar">Cadastrar</button>
+            </div>
     </nav>
 
     <main>
-        <section id="sessao1-sobre-nos">
-            <h2 class="sobre-nos">Sobre nós</h2>
-            <h1 class="sobre-pergunta">Por que somos diferentes?</h1>
-            <p class="sobre-resposta">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo
+        <section class="about-us">
+            <span>Sobre nós</span>
+            <h1>Por que somos diferentes?</h1>
+            <p class="about-texto">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo
                 o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
         </section>
 
-        <section id="sessao2-metrica">
-            <div class="blocos-metrica">
-                <h2 class="metrica-titulo">400+</h2>
-                <h3 class="metrica-subtitulo">Projetos concluídos</h3>
-                <p class="metrica-texto">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+        <section class="metrics">
+            <div class="metricas">
+                <h2>400+</h2>
+                <h3 class="metricas-subtitulo">Projetos concluídos</h3>
+                <span>Nós ajudamos a construir mais de 400 projetos incríveis.</span>
             </div>
-            <div class="blocos-metrica">
-                <h2 class="metrica-titulo">100+</h2>
-                <h3 class="metrica-subtitulo">Colaboradores</h3>
-                <p class="metrica-texto">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos
-                    clientes.</p>
+            <div class="metricas">
+                <h2>100+</h2>
+                <h3 class="metricas-subtitulo">Colaboradores</h3>
+                <span>Temos mais de 100 colaboradores no nosso time que se preocupam com nossos
+                    clientes.</span>
             </div>
-            <div class="blocos-metrica">
-                <h2 class="metrica-titulo">20k</h2>
-                <h3 class="metrica-subtitulo">Downloads</h3>
-                <p class="metrica-texto">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000
-                    vezes.</p>
+            <div class="metricas">
+                <h2>20k</h2>
+                <h3 class="metricas-subtitulo">Downloads</h3>
+                <span>Nossos projetos que estão disponíveis em lojas já foram baixados mais de
+                    20.000
+                    vezes.</span>
             </div>
-            <div class="blocos-metrica">
-                <h2 class="metrica-titulo">500+</h2>
-                <h3 class="metrica-subtitulo">Reviews 5 estrelas</h3>
-                <p class="metrica-texto">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos
-                    produtos.</p>
-            </div>
-        </section>
-
-        <section id="sessao3-vagas-abertas">
-            <div>
-                <span class="vagas-abertas">Vagas abertas!</span>
-                <h2 class="vagas-titulo">Estamos procurando por talentos</h2>
-                <p class="vagas-texto">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
-            </div>
-            <div>
-                <img src="IMG/meet.svg" alt="foto de uma reunião" class="img-meet">
+            <div class="metricas">
+                <h2>500+</h2>
+                <h3 class="metricas-subtitulo">Reviews 5 estrelas</h3>
+                <span>Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos
+                    produtos.</span>
             </div>
         </section>
 
-        <section id="sessao4-vaga-area">
-            <h3 class="vaga-area-titulo">Design</h3>
+        <section class="talents">
+            <div>
+                <span>Vagas abertas!</span>
+                <h2>Estamos procurando por talentos</h2>
+                <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+            </div>
+            <div>
+                <img src="./ASSETS/IMG/meet.svg" alt="foto de uma reunião" class="img-meet">
+            </div>
+        </section>
+
+        <section class="vagas-abertas">
+
+            <h3 class="area-principal">Design</h3>
+
             <div class="vaga">
-                <span class="titulo-vaga">Product Designer</span>
+                <p class="titulo-vaga">Product Designer</p>
                 <div class="informacoes">
                     <span>Full-time</span>
                     <span>Faixa salarial: R$7.000</span>
@@ -87,16 +95,17 @@
             </div>
 
             <div class="vaga">
-                <span class="titulo-vaga">UX Designer</span>
+                <p class="titulo-vaga">UX Designer</p>
                 <div class="informacoes">
                     <span>Full-time</span>
                     <span>Faixa salarial: R$6.000</span>
                 </div>
             </div>
 
-            <h3 class="vaga-area-titulo">Desenvolvimento de Software</h3>
+            <h3 class="area-principal">Desenvolvimento de Software</h3>
+
             <div class="vaga">
-                <span class="titulo-vaga">Desenvolvedor(a) iOS</span>
+                <p class="titulo-vaga">Desenvolvedor(a) iOS</p>
                 <div class="informacoes">
                     <span>Full-time</span>
                     <span>Faixa salarial: R$8.000</span>
@@ -104,7 +113,7 @@
             </div>
 
             <div class="vaga">
-                <span class="titulo-vaga">Desenvolvedor(a) Front-end</span>
+                <p class="titulo-vaga">Desenvolvedor(a) Front-end</p>
                 <div class="informacoes">
                     <span>Full-time</span>
                     <span> Faixa salarial: R$7.000</span>
@@ -112,7 +121,7 @@
             </div>
 
             <div class="vaga">
-                <span class="titulo-vaga">Desenvolvedor(a) Back-end</span>
+                <p class="titulo-vaga">Desenvolvedor(a) Back-end</p>
                 <div class="informacoes">
                     <span>Full-time</span>
                     <span>Faixa salarial: R$ 8.000</span>
@@ -120,30 +129,30 @@
             </div>
         </section>
 
-        <section id="sessao4-depoimento">
-            <div class="depoimento">
-                <h3 class="depoimento-titulo">Veja o que nossos colaboradores falam sobre nós</h3>
-                <h4 class="depoimento-texto">OptimusTech se importa com a saúde dos seus colaboradores e sempre procura
-                    nos dar todo tipo de auxílio possível.</h4>
-                <img src="IMG/avatar.svg" alt="Foto do colaborador" class="img-avatar">
-                <p class="nome-colaborador">Júlia Castro</p>
-                <samp class="cargo">Desenvolvedora Web</samp>
+        <section class="depoimento"
+            <div>
+                <span>Veja o que nossos colaboradores falam sobre nós</h3>
+                <h2>OptimusTech se importa com a saúde dos seus colaboradores e sempre procura
+                    nos dar todo tipo de auxílio possível.</h2>
+                <img src="./ASSETS/IMG/avatar.svg" alt="Foto do colaborador" class="img-avatar">
+                <span class="nome">Júlia Castro</span>
+                <span class="cargo">Desenvolvedora Web</span>
             </div>
         </section>
     </main>
 
-    <footer id="rodape">
-        <div class="conteudo-rodape">
-            <h4 class="titulo-rodape">Acompanhe as nossas oportunidades</h4>
-            <p class="texto-rodape">Seja o primeiro a saber quando novas vagas serão abertas!</p>
+    <footer>
+        <h2>Acompanhe as nossas oportunidades</h2>
+        <span>Seja o primeiro a saber quando novas vagas serão abertas!</span>
 
-            <form action="post" class="button-rodape">
-                <input type="email" id="email" class="imput-seu-email" required placeholder="seuemail@dominio.com">
-                <button id="signUp-rodape">Cadastrar</button>
-            </form>
+        <form>
+            <input type="email" id="email" required placeholder="seuemail@dominio.com">
+            <button id="signUp-rodape" type="submit" value="Cadastrar">Cadastrar</button>
+        </form>
 
-            <p class="copyrigth"> &copy; 2023 OptimusTech. Todos os direitos reservados.</p>
+        <span> &copy; 2023 OptimusTech. Todos os direitos reservados.</span>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
